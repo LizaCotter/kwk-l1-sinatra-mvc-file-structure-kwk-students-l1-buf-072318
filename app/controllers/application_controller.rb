@@ -8,4 +8,7 @@ class ApplicationController < Sinatra::Base
   get "/" do
   	erb :index
   end
+  get "/liza" do
+  	erb :liza
+  end
 end
